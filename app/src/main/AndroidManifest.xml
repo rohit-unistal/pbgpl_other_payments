@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="unistal.com.pbgplextrapipe">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pbgl_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/pbgl_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HpclExtraPipe"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name="unistal.com.pbgplextrapipe.RequestsListActivity"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.ModificationListActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.RequestActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.ModificationActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.NGCActivity"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="unistal.com.pbgplextrapipe.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="unistal.com.pbgplextrapipe.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

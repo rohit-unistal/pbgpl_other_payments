@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PBGPL_Other_Payments</string>
+    <string name="powered_by_fps">Powered By - Unistal Systems Pvt. Ltd.</string>
+    <string name="user">User ID</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="location_not_deter">Location not determined</string>
+    <string name="try_again">Please try again!</string>
+</resources>
